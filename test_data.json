@@ -1,0 +1,34 @@
+{
+    "api": {
+        "base_url": "https://jsonplaceholder.typicode.com",
+        "posts_endpoint": "/posts",
+        "users_endpoint": "/users",
+        "new_post": {
+            "title": "QA Automation Test Post",
+            "body": "This post was created by an automated test.",
+            "userId": 1
+        },
+        "updated_post": {
+            "id": 1,
+            "title": "Updated Title by QA Bot",
+            "body": "This post was updated by an automated test.",
+            "userId": 1
+        }
+    },
+    "ui": {
+        "login_url": "https://the-internet.herokuapp.com/login",
+        "valid_credentials": {
+            "username": "tomsmith",
+            "password": "SuperSecretPassword!"
+        },
+        "invalid_credentials": {
+            "username": "wrong_user",
+            "password": "wrong_password"
+        },
+        "expected_texts": {
+            "login_heading": "Login Page",
+            "success_message": "You logged into a secure area!",
+            "failure_message": "Your username is invalid!"
+        }
+    }
+}
